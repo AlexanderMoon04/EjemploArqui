@@ -56,6 +56,7 @@ void GPIO_init_board(void)
 
     GPIO_write_bit_high(P1,B1); // Force pull-up.
     GPIO_write_bit_high(P1,B4); // Force pull-up.
+
 }
 
 /**********************************NEW*****************************************
